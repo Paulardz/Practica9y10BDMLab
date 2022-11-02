@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(-45deg, #20065d 0%, rgb(146, 15, 41) 100%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 2% 10px;
+    color: black;
+}
+
+#Mylogo, header>a {
+    border-radius: 40px;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    border: 3px solid #FFFFFF;
+}
+
+.container-fluid{
+    box-shadow: 0px 10px 5px #20065d;
+    width: 98%;
+}
+td.col-lg-3, td.col-lg-2{
+    text-align: center;
+}
+td.col-lg-6{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
